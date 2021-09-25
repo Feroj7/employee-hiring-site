@@ -1,0 +1,41 @@
+.employee{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left:50px;
+}
+.card{
+    border:1px solid lightgray;
+    width:300px;
+    height:400px;
+    margin:10px;
+    text-align:center;
+    background: linear-gradient(to right, #0E5D8D, #149ECC);
+}
+.img-area img{
+   border-radius: 50%;
+   margin-top:5px;
+}
+.tech1{
+    background:white;
+    padding:5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.tech2{
+    background:white;
+    padding:5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.tech3{
+    background:white;
+    padding:5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.hunt-btn{
+    padding:5px 20px;
+    background-color: #1C243A;
+    border:1px solid lightgray;
+    color:white;
+}
