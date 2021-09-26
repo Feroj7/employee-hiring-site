@@ -4,6 +4,7 @@ import image from '../../images/header-img.jpg'
 
 const Header = () => {
     return (
+        // display header area in UI
         <div className="header">
             <div className="text-area">
                 <h1>Build a Software Company</h1>

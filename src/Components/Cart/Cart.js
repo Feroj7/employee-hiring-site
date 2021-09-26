@@ -12,8 +12,9 @@ const Cart = (props) => {
     }
     
     return (
+        // display cart in UI 
         <div>
-            <h3>Selected Employee: {cart.length}</h3>
+            <h3><i className="fas fa-users"></i> Selected Employees: {cart.length}</h3>
             <h5>Total Salary: $ {total}</h5>
             <h4>Hired Employees Name: </h4>
             <ul className="hired-list">

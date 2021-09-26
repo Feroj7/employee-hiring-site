@@ -28,7 +28,7 @@ const Employee = (props) => {
                     </div>
                     <button
                         onClick={() => props.handleAddToCart(props.employee)} className="hire-btn">
-                        <i className="fas fa-cart-plus"></i> hire</button>
+                        <i className="fas fa-user-plus"></i> Hire</button>
                 </div>
             </div>
         </div>

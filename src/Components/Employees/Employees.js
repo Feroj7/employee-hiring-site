@@ -16,10 +16,14 @@ const Employees = () => {
 
     // eventhandler to handle display data in UI
     const handleAddToCart = employee => {
-        const newCart = [...cart, employee];
-        setCart(newCart); 
+        const isCartExists = cart.find(cart => cart.key === employee.key);
+        if(!isCartExists){
+            const newCart = [...cart, employee];
+            setCart(newCart); 
+        }
     }
     return (
+        //display employee and cart in UI
         <div className ="employees-container">
             <div className ="employee">
                 {
