@@ -1,41 +1,77 @@
+/* all employee css*/
 .employee{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left:50px;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-bottom:30px;
 }
+/* employee card css */
 .card{
     border:1px solid lightgray;
     width:300px;
-    height:400px;
+    height:500px;
     margin:10px;
     text-align:center;
-    background: linear-gradient(to right, #0E5D8D, #149ECC);
+    padding:10px;
+    background-color: #E6E6E9;
+    border-radius: 10px;
 }
+/* employee salary css */
+.salary{
+    text-align:end;
+    margin-right: 10px;
+    font-weight: 600;
+}
+/* employee image css */
 .img-area img{
    border-radius: 50%;
    margin-top:5px;
 }
+/* employee skills title css */
+.skills{
+    text-align: left;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+/* employee skills list css */
 .tech1{
-    background:white;
-    padding:5px;
-    border-radius: 5px;
+    padding:5px 15px;
+    border-radius: 15px;
     margin: 5px;
+    font-weight:600;
+    border:1px solid lightgray;
 }
 .tech2{
-    background:white;
-    padding:5px;
-    border-radius: 5px;
+    padding:5px 15px;
+    border-radius: 15px;
     margin: 5px;
+    font-weight:600;
+    border:1px solid lightgray;
 }
 .tech3{
-    background:white;
-    padding:5px;
-    border-radius: 5px;
+    padding:5px 15px;
+    border-radius: 15px;
     margin: 5px;
-}
-.hunt-btn{
-    padding:5px 20px;
-    background-color: #1C243A;
+    font-weight:600;
     border:1px solid lightgray;
+}
+.tech4{
+    background-color: #54A8FD;
+    padding:5px 15px;
+    border-radius: 15px;
+    margin: 5px;
+    font-weight:600;
     color:white;
+}
+/* hire button css */
+.hire-btn{
+    padding:8px 30px;
+    background-color: #1C243A;
+    border:1px solid #1C243A;
+    color:white;
+    margin-top:20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
 }

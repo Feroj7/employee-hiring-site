@@ -1,4 +1,6 @@
 .employees-container{
     display:grid;
     grid-template-columns: 3fr 1fr;
+    background-color: #C8DAE8;
+    padding-top:40px;
 }

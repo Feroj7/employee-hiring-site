@@ -1,0 +1,8 @@
+.hired-list li{
+    background-color: #54A8FD;
+    list-style: none;
+    margin:15px;
+    padding:10px;
+    color:white;
+    font-weight: 600;
+}
